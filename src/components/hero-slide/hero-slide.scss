@@ -45,6 +45,11 @@
 
       @include tablet {
         width: 100%;
+        padding-top: 6rem;
+      }
+
+      @include mobile {
+        padding-top: 6rem;
       }
 
       & > * ~ * {

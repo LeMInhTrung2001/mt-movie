@@ -131,7 +131,7 @@ const MovieSearch = (props) => {
         value={keyword}
         onChange={(e) => setKeyword(e.target.value)}
       />
-      <Button className="small" onClick={goToSearch}>
+      <Button className="medium" onClick={goToSearch}>
         Search
       </Button>
     </div>
